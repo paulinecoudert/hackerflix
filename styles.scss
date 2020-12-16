@@ -1,0 +1,111 @@
+/* dependencies */
+@import "@fortawesome/fontawesome-free/css/all.css";
+@import "~bootstrap/scss/bootstrap";
+
+/* local imports */
+@import "./styles/variables";
+@import "./styles/fonts";
+@import "./styles/base";
+
+/*.containerFilms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+*/
+.containerFilms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  width: 180px;
+  height: 250px;
+  border: solid 1px black;
+  border-radius: 10px;
+  margin: 10px;
+  background-color: white;
+}
+.poster {
+  width: 100%;
+  height: 200px;
+  padding: 10px;
+}
+
+p {
+  color: black;
+}
+
+h1 {
+  width: 50%;
+  color: pink;
+  border: solid 1px pink;
+  border-radius: 10px;
+  margin: 0%;
+  margin-left: 25%;
+}
+
+.recent {
+  width: 15%;
+  color: white;
+  background-color: pink;
+  border: solid 1px pink;
+  border-radius: 10px;
+}
+
+.all {
+  width: 15%;
+  color: white;
+  background-color: pink;
+  border: solid 1px pink;
+  border-radius: 10px;
+}
+
+h3 {
+  color: rgb(15, 126, 107);
+}
+
+.card-title {
+  font-size: 17px;
+  margin-top: 70px;
+  color: black;
+}
+
+.imgcolor {
+  width: 90%;
+  height: 180px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: grey;
+  opacity: 0.43;
+}
+
+.popUp {
+  display: block;
+  position: fixed;
+  margin: 0;
+  padding: 10px;
+  top: 30%;
+  left: 20%;
+  width: 60vw;
+  height: 50vh;
+  background: white;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 10px;
+}
+.fondPopUp {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(109, 110, 114, 0.598);
+}
+
+i {
+  display: none;
+  font-size: 20px;
+  color: rgb(63, 61, 62);
+}
